@@ -3,8 +3,7 @@
 h1 {
   font-family: "Gaegu", cursive;
   margin: 20px 0;
-  /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
-  font-size: 10px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -16,8 +15,7 @@ h6 {
   font-family: "Gaegu", cursive;
   margin-bottom: 0;
   padding: 0 10px;
-  /*=======  Font size'ı 30px yapın*/
-  font-size: 10px;
+  font-size: 30px;
 }
 
 /*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
@@ -40,11 +38,11 @@ line-height: 1.4;
 }
 
 .content-row div {
-  /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
+  margin: 20px;
 }
 
 .container {
-  /*======= width property yaratın. Değerini 750px olarak atayın */
+  width: 750px;
   margin: 0 auto;
 }
 
@@ -57,11 +55,12 @@ line-height: 1.4;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-  /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
+  background-color: #e79947;
 }
 
 .container header nav a:hover {
-  /*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini yapın. */
+  background-color: white;
+  color: #e79947;
 }
 
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
