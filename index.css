@@ -1,5 +1,10 @@
-html {
+* {
   color: #3c373b;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -25,6 +30,7 @@ p {
   font-family: roboto;
   padding: 10px;
   line-height: 1.4;
+  margin: 0;
 }
 
 img {
@@ -67,7 +73,6 @@ img {
 }
 
 .contact-section {
-  border-top: 1px dashed black;
   padding: 20px 0;
 }
 
@@ -76,9 +81,9 @@ img {
   margin: 0 0 10px 0;
 }
 
-/*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:
-   line-height: 2;
-*/
+.contact-section address {
+  line-height: 2;
+}
 
 footer {
   width: 100%;
@@ -88,7 +93,7 @@ footer {
 
 footer .footer-content {
   margin: 0 auto;
-  /*======= width property yaratın. Değerini 750px olarak atayın */
+  width: 750px;
 }
 
 footer .footer-content h3 {
@@ -100,21 +105,25 @@ footer nav {
   display: flex;
 }
 
-/*======= Footer'daki anchor tag için aşağıdaki stilleri içeren bir selector yaratın:
+footer a {
   margin: 10px;
   color: black;
   text-decoration: underline;
-*/
+}
 
 footer nav a:first-child {
   margin-left: 0;
 }
 
-/*======= Footer nav'daki anchor tag için aşağıdaki stilleri içeren bir hover state yaratın:
+footer nav a {
+  text-decoration: none;
+}
+
+footer nav a:hover {
   color: white;
-*/
+}
 
 footer .footer-content .copyright {
   padding: 20px 0;
-  /*======= metni ortalayacak kodu yazın */
+  text-align: center;
 }
