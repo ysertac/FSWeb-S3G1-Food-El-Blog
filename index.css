@@ -1,4 +1,6 @@
-/*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
+html {
+  color: #3c373b;
+}
 
 h1 {
   font-family: "Gaegu", cursive;
@@ -18,20 +20,17 @@ h6 {
   font-size: 30px;
 }
 
-/*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 
-font-size: 16px;
-font-family: roboto;
-padding: 10px;
-line-height: 1.4;
-
-*/
-
-/*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
-
+img {
   border-radius: 10px;
-
-*/
+  width: 100%;
+}
 
 .content-row {
   display: flex;
@@ -63,9 +62,9 @@ line-height: 1.4;
   color: #e79947;
 }
 
-/*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
+#about-section {
   margin-top: 20px;
-*/
+}
 
 .contact-section {
   border-top: 1px dashed black;
